@@ -13,4 +13,6 @@ sudo mv ./kind /usr/local/bin/kind
 
 ### create  kubernetes cluster
 
-`kind create cluster --name k8s-cluster --config main.yml`
+```sh
+kind create cluster --name k8s-cluster --config main.yml
+```
